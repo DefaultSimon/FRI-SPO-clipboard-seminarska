@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1200 1850" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Dotted-lines" serif:id="Dotted lines" transform="matrix(1,0,0,1,-287,-112.5)">
+        <g transform="matrix(1,0,0,1.93617,14.0098,4.95745)">
+            <path d="M705,62L705,1002" style="fill:none;stroke:rgb(159,205,219);stroke-width:2.6px;stroke-dasharray:7.79,7.79,0,0;"/>
+        </g>
+        <g transform="matrix(1,0,0,1.93617,349,4.95745)">
+            <path d="M705,62L705,1002" style="fill:none;stroke:rgb(159,205,219);stroke-width:2.6px;stroke-dasharray:7.79,7.79,0,0;"/>
+        </g>
+        <g id="Dotted-line-mask" serif:id="Dotted line mask" transform="matrix(1,0,0,0.233979,14.0098,300.424)">
+            <rect x="685" y="266" width="40" height="387" style="fill:white;stroke:white;stroke-width:13.77px;stroke-dasharray:27.54,68.85,0,0;"/>
+        </g>
+        <g id="Dotted-line-mask1" serif:id="Dotted line mask" transform="matrix(1,0,0,0.166796,14.0098,968.857)">
+            <rect x="685" y="266" width="40" height="387" style="fill:white;stroke:white;stroke-width:13.95px;stroke-dasharray:27.9,69.75,0,0;"/>
+        </g>
+        <g id="Dotted-line-mask2" serif:id="Dotted line mask" transform="matrix(1,0,0,0.166796,349,968.857)">
+            <rect x="685" y="266" width="40" height="387" style="fill:white;stroke:white;stroke-width:13.95px;stroke-dasharray:27.9,69.75,0,0;"/>
+        </g>
+        <g id="Dotted-line-mask3" serif:id="Dotted line mask" transform="matrix(1,0,0,0.166796,349,1449.86)">
+            <rect x="685" y="266" width="40" height="387" style="fill:white;stroke:white;stroke-width:13.95px;stroke-dasharray:27.9,69.75,0,0;"/>
+        </g>
+        <g id="Dotted-line-mask4" serif:id="Dotted line mask" transform="matrix(1,0,0,0.166796,14.0098,1449.86)">
+            <rect x="685" y="266" width="40" height="387" style="fill:white;stroke:white;stroke-width:13.95px;stroke-dasharray:27.9,69.75,0,0;"/>
+        </g>
+        <g id="Dotted-line-mask5" serif:id="Dotted line mask" transform="matrix(1,0,0,0.300194,349,547.561)">
+            <rect x="685" y="266" width="40" height="387" style="fill:white;stroke:white;stroke-width:13.54px;stroke-dasharray:27.09,67.72,0,0;"/>
+        </g>
+    </g>
+    <g transform="matrix(0.882682,0,0,0.597037,-251.709,127.249)">
+        <g transform="matrix(1,0,0,1.15385,-2.84217e-14,-33.6923)">
+            <rect x="369" y="219" width="358" height="135" style="fill:rgb(243,242,241);stroke:black;stroke-width:3.79px;"/>
+        </g>
+        <g transform="matrix(1.13291,0,0,1.67494,-49.0443,-147.811)">
+            <text x="451.624px" y="259.896px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:30px;">X11 funkcija</text>
+            <text x="394.62px" y="293.896px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:30px;">SetSelectionOwner</text>
+        </g>
+    </g>
+    <g transform="matrix(0.72067,0,0,0.525739,-162.927,1264.26)">
+        <g transform="matrix(1,0,0,1.15385,-2.84217e-14,-33.6923)">
+            <rect x="369" y="219" width="358" height="135" style="fill:rgb(243,242,241);stroke:black;stroke-width:4.5px;"/>
+        </g>
+        <g transform="matrix(1.3876,0,0,1.90208,-143.023,-197.556)">
+            <text x="427.982px" y="253.584px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 funkcija</text>
+            <text x="431.865px" y="287.584px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:28px;">SendEvent</text>
+        </g>
+    </g>
+    <g transform="matrix(0.888268,0,0,0.51037,472.229,774.729)">
+        <g transform="matrix(1,0,0,1.15385,-2.84217e-14,-33.6923)">
+            <rect x="369" y="219" width="358" height="135" style="fill:rgb(243,242,241);stroke:black;stroke-width:3.98px;"/>
+        </g>
+        <g transform="matrix(1.12579,0,0,1.95936,-46.4151,-210.1)">
+            <text x="457.982px" y="252.387px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 funkcija</text>
+            <text x="418.081px" y="286.387px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:28px;">ConvertSelection</text>
+        </g>
+    </g>
+    <g transform="matrix(0.972067,0,0,0.558519,426.307,1614.44)">
+        <g transform="matrix(1,0,0,1.15385,-2.84217e-14,-33.6923)">
+            <rect x="369" y="219" width="358" height="135" style="fill:rgb(243,242,241);stroke:black;stroke-width:3.64px;"/>
+        </g>
+        <g transform="matrix(1.02874,0,0,1.79045,-10.6034,-173.109)">
+            <text x="392.414px" y="256.137px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 funkcija (blokirajoča)</text>
+            <text x="410.488px" y="290.137px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:28px;">GetWindowProperty</text>
+        </g>
+    </g>
+    <g transform="matrix(1,0,0,1,-125,-85)">
+        <text x="206.7px" y="137.825px" style="font-family:'NunitoSans-Bold', 'Nunito Sans';font-weight:700;font-size:30px;">L<tspan x="223.17px 245.19px 263.88px " y="137.825px 137.825px 137.825px ">AST</tspan>NIK ODL<tspan x="402.54px 425.46px " y="137.825px 137.825px ">OŽ</tspan>IŠČ<tspan x="491.04px " y="137.825px ">A</tspan></text>
+    </g>
+    <g transform="matrix(1,0,0,1,275,-85)">
+        <text x="220.825px" y="137.825px" style="font-family:'NunitoSans-Bold', 'Nunito Sans';font-weight:700;font-size:30px;">X11 S<tspan x="303.565px " y="137.825px ">T</tspan>REŽNIK</text>
+    </g>
+    <g transform="matrix(1,0,0,1,605,-85)">
+        <text x="299.64px" y="137.825px" style="font-family:'NunitoSans-Bold', 'Nunito Sans';font-weight:700;font-size:30px;">PR<tspan x="340.14px " y="137.825px ">O</tspan>CE<tspan x="401.22px " y="137.825px ">S</tspan></text>
+    </g>
+    <g transform="matrix(0.144893,0,0,0.700935,311.903,66.6051)">
+        <path d="M539,344.925L539,339.575L915.329,339.575L831.482,318.941L851.299,315.5L960,342.25L851.299,369L831.482,365.559L915.329,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(-0.14487,1.77414e-17,-8.58397e-17,-0.700935,865.085,792.895)">
+        <path d="M539,344.925L539,339.575L915.322,339.575L831.461,318.941L851.282,315.5L960,342.25L851.282,369L831.461,365.559L915.322,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(-0.14487,1.77414e-17,-8.58397e-17,-0.700935,865.085,824.895)">
+        <path d="M588.55,344.925L686.73,365.217L668.426,369L539,342.25L668.426,315.5L686.73,319.283L588.55,339.575L960,339.575L960,344.925L588.55,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(0.655582,0,0,0.700935,7.64133,1180.45)">
+        <rect x="539" y="339.575" width="421" height="5.35" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-457.926,-149.675)">
+        <text x="545.917px" y="268px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:26px;">Novi lastnik sporoči X11</text>
+        <text x="588.726px" y="294px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:26px;">strežniku, katero</text>
+        <text x="554.029px" y="320px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:26px;">odložišče si bo prilastil</text>
+        <text x="571.549px" y="346px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:26px;">(proces mora v lasti</text>
+        <text x="607.305px" y="372px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:26px;">imeti X okno).</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-456.926,1006)">
+        <text x="589.675px" y="255.584px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">Proces pretvori</text>
+        <text x="563.671px" y="283.584px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">vsebino odložišča v</text>
+        <text x="577.781px" y="311.584px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">zahtevan format.</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-82.9165,23)">
+        <text x="588.513px" y="265px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 si zapomni</text>
+        <text x="546.65px" y="293px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">lastnika (okno), ki si je</text>
+        <text x="564.293px" y="321px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">prilastilo odložišče.</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-80.9165,259.638)">
+        <text x="558.527px" y="282.724px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 strežnik vrne ID</text>
+        <text x="561.425px" y="310.724px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">okna, ki si trenutno</text>
+        <text x="586.78px" y="338.724px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">lasti zahtevano</text>
+        <text x="620.071px" y="366.724px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">odložišče.</text>
+    </g>
+    <g transform="matrix(-0.491686,0,0,0.700935,1065.02,686.355)">
+        <path d="M539,344.925L539,339.575L927.967,339.575L927.967,315.5L960,315.5L960,369L927.967,369L927.967,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(-0.510689,0,0,0.700935,1082.26,1180.45)">
+        <path d="M553.056,344.925L580.907,365.217L575.715,369L539,342.25L575.715,315.5L580.907,319.283L553.056,339.575L929.159,339.575L929.159,315.5L960,315.5L960,369L929.159,369L929.159,344.925L553.056,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(-0.578979,-2.53708e-16,0,0.700935,927.819,686.355)">
+        <path d="M539,344.925L539,339.575L948.821,339.575L927.838,318.941L932.797,315.5L960,342.25L932.797,369L927.838,365.559L948.821,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(5.44905e-18,0.0961995,0.551402,6.03333e-17,43.2827,1136.65)">
+        <path d="M539,344.925L539,339.575L907.072,339.575L807.725,318.941L831.205,315.5L960,342.25L831.205,369L807.725,365.559L907.072,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(5.01271e-18,0.103325,0.551402,6.23015e-17,43.2827,933.316)">
+        <path d="M539,344.925L539,339.575L910.722,339.575L818.226,318.941L840.088,315.5L960,342.25L840.088,369L818.226,365.559L910.722,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(7.31438e-18,0.0657363,0.551402,5.19196e-17,43.2827,194.893)">
+        <path d="M539,344.925L539,339.575L882.544,339.575L737.158,318.941L771.52,315.5L960,342.25L771.52,369L737.158,365.559L882.544,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(6.21263e-18,0.0837292,0.551402,5.68891e-17,770.283,806.12)">
+        <path d="M539,344.925L539,339.575L899.189,339.575L785.045,318.941L812.023,315.5L960,342.25L812.023,369L785.045,365.559L899.189,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(4.57638e-18,0.110451,0.551402,6.42696e-17,770.283,1428.95)">
+        <path d="M539,344.925L539,339.575L913.901,339.575L827.373,318.941L847.824,315.5L960,342.25L847.824,369L827.373,365.559L913.901,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(4.57638e-18,0.110451,0.551402,6.42696e-17,770.283,1630.72)">
+        <path d="M539,344.925L539,339.575L913.901,339.575L827.373,318.941L847.824,315.5L960,342.25L847.824,369L827.373,365.559L913.901,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(3.9946e-18,0.119952,0.551402,6.68938e-17,43.2827,1264.24)">
+        <path d="M539,344.925L539,339.575L917.553,339.575L837.878,318.941L856.709,315.5L960,342.25L856.709,369L837.878,365.559L917.553,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,246.074,438.25)">
+        <text x="567.793px" y="263px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">Proces v neki točki želi</text>
+        <text x="582.551px" y="291px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">vsebino odložišča in</text>
+        <text x="577.841px" y="319px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">pošlje zahtevo, da se</text>
+        <text x="575.572px" y="347px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">vsebina v določenem</text>
+        <text x="544.94px" y="375px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">formatu zapiše v atribut X</text>
+        <text x="571.204px" y="403px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">okna, ki ga ima v lasti.</text>
+    </g>
+    <g transform="matrix(0.960894,0,0,0.574568,432.43,398.42)">
+        <g transform="matrix(1,0,0,1.15385,-2.84217e-14,-33.6923)">
+            <rect x="369" y="219" width="358" height="135" style="fill:rgb(243,242,241);stroke:black;stroke-width:3.63px;"/>
+        </g>
+        <g transform="matrix(1.0407,0,0,1.74044,-15.0174,-162.156)">
+            <text x="390.414px" y="257.387px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 funkcija (blokirajoča)</text>
+            <text x="415.311px" y="291.387px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:28px;">GetSelectionOwner</text>
+        </g>
+    </g>
+    <g transform="matrix(4.28549e-18,0.115202,0.551402,6.55817e-17,770.283,413.656)">
+        <path d="M539,344.925L539,339.575L915.802,339.575L832.842,318.941L852.45,315.5L960,342.25L852.45,369L832.842,365.559L915.802,344.925L539,344.925Z" style="fill:rgb(41,40,37);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,246.074,114)">
+        <text x="543.737px" y="267.75px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">Vsak proces, ki je povezan</text>
+        <text x="559.521px" y="295.75px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">z X11 strežnikom, lahko</text>
+        <text x="593.126px" y="323.75px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">zahteva podatek o</text>
+        <text x="594.289px" y="351.75px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">lastniku odložišča.</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-68.9165,1057.89)">
+        <text x="545.85px" y="269.56px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 strežnik nastavi</text>
+        <text x="576.099px" y="297.56px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">atribut okna in</text>
+        <text x="547.135px" y="325.56px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">posreduje dogodek.</text>
+    </g>
+    <g transform="matrix(1,0,0,1,-488.936,792.5)">
+        <text x="560.688px" y="271px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">Lastnik odložišča prejme</text>
+        <text x="544.637px" y="299px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">SelectionRequest dogodek,</text>
+        <text x="587.581px" y="327px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">v katerem je zapisan</text>
+        <text x="580px" y="355px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">zahtevan format in ID</text>
+        <text x="558.555px" y="383px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">okna, ki zahteva vsebino.</text>
+    </g>
+    <g transform="matrix(1,0,0,1,239.083,1312.48)">
+        <text x="553.619px" y="253.273px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">Proces v dogodku izve, ali</text>
+        <text x="548.027px" y="281.273px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">je bila pretvorba izvedena.</text>
+        <text x="563.251px" y="309.273px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">Če ni bilo problemov, se</text>
+        <text x="602.133px" y="337.273px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">vsebina nahaja na</text>
+        <text x="544.048px" y="365.273px" style="font-family:'OpenSans-Regular', 'Open Sans', sans-serif;font-size:28px;">zahtevanem atributu okna.</text>
+    </g>
+    <g transform="matrix(0.965517,0,0,0.965517,-89.0345,336.319)">
+        <g transform="matrix(1,0,0,1,-17.5,102)">
+            <path d="M495,470L469,444L231,444L205,470L205,548L231,574L469,574L495,548L495,470Z" style="fill:rgb(243,242,241);stroke:rgb(68,68,54);stroke-width:3.11px;"/>
+        </g>
+        <g transform="matrix(1.03571,0,0,1.03571,-30,-24.6786)">
+            <text x="276.059px" y="607.395px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 dogodek</text>
+            <text x="238.481px" y="641.395px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:28px;">SelectionRequest</text>
+        </g>
+    </g>
+    <g transform="matrix(1.04828,0,0,1.04828,610.448,779.844)">
+        <g transform="matrix(1,0,0,1,-17.5,102)">
+            <path d="M495,470L469,444L231,444L205,470L205,548L231,574L469,574L495,548L495,470Z" style="fill:rgb(243,242,241);stroke:rgb(68,68,54);stroke-width:2.86px;"/>
+        </g>
+        <g transform="matrix(0.953947,0,0,0.953947,-12.8289,20.375)">
+            <text x="288.059px" y="612.775px" style="font-family:'OpenSans-Italic', 'Open Sans', sans-serif;font-style:italic;font-size:28px;">X11 dogodek</text>
+            <text x="263.982px" y="646.775px" style="font-family:'OpenSans-SemiBold', 'Open Sans', sans-serif;font-weight:600;font-size:28px;">SelectionNotify</text>
+        </g>
+    </g>
+</svg>
