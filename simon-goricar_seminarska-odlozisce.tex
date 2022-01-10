@@ -10,9 +10,12 @@
 \usepackage{changepage}
 \usepackage{calc}
 
-\title{\textbf{Odlagališče (clipboard)}}
+\title{%
+	\textbf{Odložišče} \\
+	\large Seminarska naloga
+}
 \author{Simon Peter Goričar}
-\date{\textsubscript{Ljubljana 2021/22}}
+\date{\textsubscript{2021/22}}
 
 \renewcommand*\contentsname{Kazalo}
 
@@ -142,6 +145,8 @@
 	
 	\pagebreak
 	\section{Viri}
+	\begingroup
+	\renewcommand{\section}[2]{}%
 	\begin{thebibliography}{10}
 		\bibitem{winclipboard}
 		\textit{Clipboard - Win32 apps | Microsoft Docs.}
@@ -174,5 +179,6 @@
 		\bibitem{keithpackardthexselectionmechanism}
 		Packard, Keith. The X Selection Mechanism. \url{https://keithp.com/~keithp/talks/}
 	\end{thebibliography}
+	\endgroup
 	
 \end{document}
