@@ -89,11 +89,11 @@
 	\subsubsection{Implementacija odložišča v X11}
 	Shranjevanje vsebine odložišča v medpomnilniku samega okenskega sistema se je izkazalo za nepraktično in omejeno. X11 je tako vzpostavil nov sistem imenovan \textit{izbire} (ang. "selections"), ki je precej bolj dinamičen in učinkovitejši. Procesi ne pošiljajo več same vsebine odložišča na X11 strežnik, ampak namesto tega strežniku javijo, da si v nekem trenutku lastijo določeno odložišče. Ko naslednji proces zahteva lastništvo dotičnega odložišča, se lastništvo preprosto prestavi. V tem koraku še ni prenesenih nobenih drugih podatkov, s čimer se izognemo nepotrebnim prenosom.
 	
-	Standard ICCCM (Inter-Client Communication Conventions Manual) omenja, da je možno uporabljati poljubna odložišča. Posamezna odložišča se identificira preko t.i. atomov\textsuperscript{\cite{xdocs}} - števil, ki jih X asociira s pogostimi nizi. Proces zahteva atom za npr. niz \textit{CLIPBOARD}, in dobi strukturo \textit{Atom}, ki je pravzaprav število. To število ostane v tabeli X strežnika in se uporablja po potrebi. S tem se zmanjša količina prenesenih podatkov, saj se prenese atom, ne cel niz. \\
+	Standard ICCCM (Inter-Client Communication Conventions Manual) omenja, da je možno uporabljati poljubna odložišča. Posamezna odložišča se identificira preko t.i. atomov\textsuperscript{\cite{xdocs}} - števil, ki jih X asociira s pogostimi nizi. Proces zahteva atom za npr. niz \textit{CLIPBOARD}, in dobi strukturo \textit{Atom}, ki je asociiran s podanim nizom, a je pravzaprav število. To število ostane v tabeli X strežnika in se uporablja po potrebi. S tem se zmanjša količina prenesenih podatkov, saj se prenese atom, ne cel niz. \\
 	
 	Definira se tri glavna odložišča, ki naj bi jih podpirale vse aplikacije:
 	\begin{itemize}
-		\item \textbf{CLIPBOARD} je glavno odložišče, kot ga poznamo recimo na Windows sistemih. Uporablja se pri $Ctrl+C/V$ operacijah ali ročnem kopiranju z uporabo kontekstnega menija ali podobnega mehanizma v aplikaciji.
+		\item \textbf{CLIPBOARD} je glavno odložišče, kot ga poznamo recimo na Windows sistemih. Uporablja se pri operacijah kopiranja z uporabo kontekstnega menija ali podobnega mehanizma, ki ga podpira aplikacija.
 		\item \textbf{PRIMARY} je prikrita funkcionalnost X11 izbir - to ni, kljub imenu, standardno odložišče. Uporablja se kot nekakšno hitro odložišče, ki je ločeno od glavnega. Če izberemo besedilo (npr. v terminalu), nato pa se prestavimo na nek vnos besedila in pritisnemo kolesce na miški, se bo izbrano besedilo prekopiralo. V istem času imamo lahko popolnoma drugačno vsebino v \textbf{CLIPBOARD} odložišču, ki bo ostalo nespremenjeno.
 		\item \textbf{SECONDARY} je sicer v standardu, a ga aplikacije praktično ne uporabljajo.
 	\end{itemize}
@@ -114,6 +114,7 @@
 		\item Pogosto se uporablja tudi poimenovanje kot pri MIME Content-Type standardu (npr. \textit{"text/plain"} ali \textit{"image/png"}) za opisovanje mogočih formatov pretvorbe.
 	\end{itemize}
 	
+	\pagebreak
 	Formatov je precej več kot jih je praktično našteti v seznamu, še posebej zato, ker se dopušča uporaba MIME tipov. Če pretvorba v zahtevano obliko ni možna ali pa pride do katere koli druge napake, proces, ki je zahteval vsebino, dobi \textit{SelectionNotify} dogodek z napako. Prav tako je pomembno poudariti, da je ta sistem \textbf{asinhron}: vsa komunikacija poteka izključno preko dogodkov.
 	
 	\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{assets/X11_skica.png}}
