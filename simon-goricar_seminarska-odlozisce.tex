@@ -47,8 +47,8 @@
 	Seveda je implementacija zgornjih akcij poljubna, kar pomeni, da aplikaciji sploh ni treba imeti kazalca ali očitnega mesta za kopiranje ali lepljenje. Koncept izbora vsebine se prav tako razlikuje od aplikacije do aplikacije - besedilni urejevalnik ima kazalec, raziskovalec ima izbor datotek, itd. Kljub temu se močno priporoča\textsuperscript{\cite{winclipboardabout}}, da aplikacije režejo, kopirajo ali lepijo le, ko uporabnik to zahteva, in ne gledajo ali upravljajo odložišča brez uporabnikovega strinjanja.
 	
 	
-	\subsection{Zgodovina v enem odstavku}
-	Koncept rezanja in lepljenja je oblikoval Pentti Kanerva, ekspert za programsko opremo na Stanfordski univerzi. Prvič je bil uporabljen v sedemdesetih, ko se je Larry Tesler v podjetju Xerox PARC domislil uporabnega načina rezanja in vstavljanja besedila za besedilni urejevalnik, ki so ga razvijali v podjetju. V samih začetkih je uporabnik izbral besedilo, ki ga je želel izbrisati in pritisnil na tipko za brisanje. Če je pozneje ugotovil napako in želel pridobiti nazadnje izbrisano besedilo nazaj, je pritisnil \textit{Esc} na tipkovnici. Ta ukaz pa je prilepil besedilo ne na mesto izbrisa, ampak na trenutno lokacijo kazalca. Takšni so bili v osnovi začetki odložišča - pravzaprav je šlo za sistem razveljavljanja napak\textsuperscript{\cite{designingiteractions}}.
+	\subsection{Začetki odložišča}
+	Koncept rezanja in lepljenja je oblikoval Pentti Kanerva, ekspert za programsko opremo na Stanfordski univerzi. Prvič je bil uporabljen v sedemdesetih, ko se je Larry Tesler v podjetju Xerox PARC domislil uporabnega načina rezanja in vstavljanja besedila za besedilni urejevalnik, ki so ga razvijali v podjetju. V samih začetkih je uporabnik izbral besedilo, ki ga je želel izbrisati in pritisnil na tipko za brisanje. Če je pozneje ugotovil napako in želel pridobiti nazadnje izbrisano besedilo nazaj, je pritisnil \textit{Esc} na tipkovnici. Ta ukaz pa je prilepil besedilo ne nujno na mesto izbrisa, ampak na trenutno lokacijo kazalca. Takšni so bili v osnovi začetki odložišča - pravzaprav je šlo za sistem razveljavljanja napak\textsuperscript{\cite{designingiteractions}}.
 	
 	
 	\subsection{Arhitekturna vprašanja}
@@ -92,9 +92,9 @@
 	\subsubsection{Implementacija odložišča v X11}
 	Shranjevanje vsebine odložišča v medpomnilniku samega okenskega sistema se je izkazalo za nepraktično in omejeno. X11 je tako vzpostavil nov sistem imenovan \textit{izbire} (ang. "selections"), ki je precej bolj dinamičen in učinkovitejši. Procesi ne pošiljajo več same vsebine odložišča na X11 strežnik, ampak namesto tega strežniku javijo, da si v nekem trenutku lastijo določeno odložišče. Ko naslednji proces zahteva lastništvo dotičnega odložišča, se lastništvo preprosto prestavi. V tem koraku še ni prenesenih nobenih drugih podatkov, s čimer se izognemo nepotrebnim prenosom.
 	
-	Standard ICCCM (Inter-Client Communication Conventions Manual) omenja, da je možno uporabljati poljubna odložišča. Posamezna odložišča se identificira preko t.i. atomov\textsuperscript{\cite{xdocs}} - števil, ki jih X asociira s pogostimi nizi. Proces zahteva atom za npr. niz \textit{CLIPBOARD}, in dobi strukturo \textit{Atom}, ki je asociiran s podanim nizom, a je pravzaprav število. To število ostane v tabeli X strežnika in se uporablja po potrebi. S tem se zmanjša količina prenesenih podatkov, saj se prenese atom, ne cel niz. \\
+	Standard ICCCM (Inter-Client Communication Conventions Manual) omenja, da je možno uporabljati poljubna odložišča. Posamezna odložišča se identificira preko t.i. atomov\textsuperscript{\cite{xdocs}} - števil, ki jih X asociira s pogostimi nizi. Proces zahteva atom za določen niz (npr. \textit{CLIPBOARD}), in dobi strukturo \textit{Atom}, ki je asociiran s podanim nizom, a je pravzaprav število. To število ostane v tabeli X strežnika in se uporablja po potrebi. S tem se zmanjša količina prenesenih podatkov, saj se prenese atom, ne cel niz. \\
 	
-	Definira se tri glavna odložišča, ki naj bi jih podpirale vse aplikacije:
+	Preko atomov se definira tri glavna odložišča, ki naj bi jih podpirale vse aplikacije:
 	\begin{itemize}
 		\item \textbf{CLIPBOARD} je glavno odložišče, kot ga poznamo recimo na Windows sistemih. Uporablja se pri operacijah kopiranja z uporabo kontekstnega menija ali podobnega mehanizma, ki ga podpira aplikacija.
 		\item \textbf{PRIMARY} je prikrita funkcionalnost X11 izbir - to ni, kljub imenu, standardno odložišče. Uporablja se kot nekakšno hitro odložišče, ki je ločeno od glavnega. Če izberemo besedilo (npr. v terminalu), nato pa se prestavimo na nek vnos besedila in pritisnemo kolesce na miški, se bo izbrano besedilo prekopiralo. V istem času imamo lahko popolnoma drugačno vsebino v \textbf{CLIPBOARD} odložišču, ki bo ostalo nespremenjeno.
@@ -118,7 +118,7 @@
 	\end{itemize}
 	
 	\pagebreak
-	Formatov je precej več kot jih je praktično našteti v seznamu, še posebej zato, ker se dopušča uporaba MIME tipov. Če pretvorba v zahtevano obliko ni možna ali pa pride do katere koli druge napake, proces, ki je zahteval vsebino, dobi \textit{SelectionNotify} dogodek z napako. Prav tako je pomembno poudariti, da je ta sistem \textbf{asinhron}: vsa komunikacija poteka izključno preko dogodkov.
+	Formatov je precej več kot jih je praktično našteti v seznamu, še posebej zato, ker se dopušča uporaba MIME tipov. Če pretvorba v zahtevano obliko ni možna ali pa pride do katere koli druge napake, proces, ki je zahteval vsebino, dobi \textit{SelectionNotify} dogodek z napako. Prav tako je pomembno poudariti, da je ta sistem \textbf{asinhron}: vsa komunikacija poteka izključno preko dogodkov. Če se proces, ki si je lastil odložišče, konča, se vsebina izgubi.
 	
 	\noindent\makebox[\textwidth]{\includegraphics[width=\textwidth]{assets/X11_skica.png}}
 	
